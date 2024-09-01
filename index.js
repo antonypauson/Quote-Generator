@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function generateQuote(quotes,usedIndex) {
     while (true) {
         const randomIndex = Math.floor(Math.random() * quotes.length);
+        // randomIndex creation
         
         if (usedIndex.has(randomIndex)) continue;
 
